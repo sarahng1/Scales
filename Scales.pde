@@ -5,7 +5,7 @@ void setup() {
 void draw () {
  for (int y =-50; y < 1000; y+= 59) {
   for(int x = 10; x < 1000; x = x + 59) {
-    scale(x , y);
+    scale(x , y); 
   }
  }
 }
